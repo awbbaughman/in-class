@@ -43,4 +43,6 @@ jobs:
        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/in-class:latest
 
    - name: Image digest
-     run: echo ${{ steps.docker_build.outputs.digest }}
+     run: echo ${{ steps.docker_build.outputs.digest }} 
+
+     #nonsensical comment here to make a change for github
